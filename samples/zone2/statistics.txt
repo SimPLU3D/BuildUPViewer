@@ -1,0 +1,3676 @@
+
+----------------------------------
+Experiment 0
+ CPU time 225170 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.3798
+    --dFront2 = 84.7642
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 81.0821
+    --dSide2 = 49.9299
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.88436
+    --dFront2 = 4.41825
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 152.301
+    --dSide2 = 41.5905
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 40.9828
+    --dFront2 = 16.7618
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 144.723
+    --dSide2 = 8.15386
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.14889
+    --dFront2 = 45.5306
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 109.811
+    --dSide2 = 45.3236
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.15826
+    --dFront2 = 146.384
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 12.7069
+    --dSide2 = 37.4796
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 33.8714
+    --dFront2 = 47.7419
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 114.844
+    --dSide2 = 10.7079
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 44.3482
+    --dFront2 = 76.9836
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 66.3539
+    --dSide2 = 7.71517
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.02693
+    --dFront2 = 115.734
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 49.9403
+    --dSide2 = 39.5011
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.137897
+ruleFAR: far<=4
+  --FAR = 0.827383
+
+ ------Energies-----
+eTotal:5894.85 eBorder:0 ePair:0 eHDiff:0 eLCR: 862.103 eFAR: 5032.75
+
+----------------------------------
+Experiment 1
+ CPU time 225050 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 16.4227
+    --dFront2 = 155.876
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.45518
+    --dSide2 = 7.71697
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.58042
+    --dFront2 = 116.992
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 46.9497
+    --dSide2 = 44.2287
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.66219
+    --dFront2 = 76.297
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 83.8826
+    --dSide2 = 53.0165
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 32.4415
+    --dFront2 = 124.144
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 36.6664
+    --dSide2 = 12.8195
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 43.0988
+    --dFront2 = 73.689
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 76.7098
+    --dSide2 = 14.7388
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.51478
+    --dFront2 = 30.3523
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 122.967
+    --dSide2 = 47.9857
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 41.8243
+    --dFront2 = 31.8374
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 119.033
+    --dSide2 = 8.67289
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 22.4559
+    --dFront2 = 4.62844
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 158.213
+    --dSide2 = 16.3146
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.155784
+ruleFAR: far<=4
+  --FAR = 0.934705
+
+ ------Energies-----
+eTotal:5542.23 eBorder:0 ePair:0 eHDiff:0 eLCR: 844.216 eFAR: 4698.02
+
+----------------------------------
+Experiment 2
+ CPU time 229950 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.15799
+    --dFront2 = 152.069
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 12.914
+    --dSide2 = 11.483
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 23.5462
+    --dFront2 = 88.3037
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 69.7473
+    --dSide2 = 19.0811
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 11.8649
+    --dFront2 = 42.0138
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 99.1218
+    --dSide2 = 11.3874
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 30.8184
+    --dFront2 = 7.79314
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 154.285
+    --dSide2 = 12.1397
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 9.69318
+    --dFront2 = 44.2484
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 123.724
+    --dSide2 = 38.1962
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.46744
+    --dFront2 = 2.98287
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 160.366
+    --dSide2 = 45.0327
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.4113
+    --dFront2 = 122.96
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 38.9053
+    --dSide2 = 11.1346
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.36764
+    --dFront2 = 113.769
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 40.0097
+    --dSide2 = 37.8818
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.80829
+    --dFront2 = 71.9246
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 76.4563
+    --dSide2 = 49.5125
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  --violation: dPair=14.7816
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.18489
+ruleFAR: far<=4
+  --FAR = 1.10934
+
+ ------Energies-----
+eTotal:5091.57 eBorder:0 ePair:98.4993 eHDiff:0 eLCR: 815.11 eFAR: 4177.96
+
+----------------------------------
+Experiment 3
+ CPU time 226070 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.82603
+    --dFront2 = 148.588
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 19.3992
+    --dSide2 = 27.1427
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.22347
+    --dFront2 = 118.843
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 47.9816
+    --dSide2 = 43.8247
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.4511
+    --dFront2 = 76.7497
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 82.7525
+    --dSide2 = 45.5595
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.53356
+    --dFront2 = 5.48241
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 159.062
+    --dSide2 = 45.9614
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 39.6059
+    --dFront2 = 10.0563
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 136.909
+    --dSide2 = 10.9171
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 36.0669
+    --dFront2 = 116.057
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 40.2384
+    --dSide2 = 9.81424
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.0405
+    --dFront2 = 79.4968
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 75.2758
+    --dSide2 = 7.3932
+  eSide = 72.2962
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 30.7836
+    --dFront2 = 51.8022
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 112.046
+    --dSide2 = 19.7085
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.71472
+    --dFront2 = 41.4925
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 117.6
+    --dSide2 = 45.778
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  --violation: dPair=14.7753
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.143929
+ruleFAR: far<=4
+  --FAR = 0.863573
+
+ ------Energies-----
+eTotal:5948.29 eBorder:72.2962 ePair:101.339 eHDiff:0 eLCR: 856.071 eFAR: 4918.59
+
+----------------------------------
+Experiment 4
+ CPU time 224840 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.8594
+    --dFront2 = 19.2859
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 142.82
+    --dSide2 = 11.162
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.73747
+    --dFront2 = 67.4484
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 94.2626
+    --dSide2 = 49.1687
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 38.1441
+    --dFront2 = 105.533
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 57.2767
+    --dSide2 = 11.6383
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 33.4146
+    --dFront2 = 68.8806
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 89.361
+    --dSide2 = 17.043
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.54378
+    --dFront2 = 41.6367
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 125.491
+    --dSide2 = 34.2213
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.06804
+    --dFront2 = 104.491
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 51.7731
+    --dSide2 = 40.7211
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.55777
+    --dFront2 = 147.346
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 16.2959
+    --dSide2 = 32.8038
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 33.7971
+    --dFront2 = 139.619
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.29379
+    --dSide2 = 7.16661
+  eSide = 225.381
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.07694
+    --dFront2 = 10.321
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 155.574
+    --dSide2 = 46.4058
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.144092
+ruleFAR: far<=4
+  --FAR = 0.864555
+
+ ------Energies-----
+eTotal:5996.8 eBorder:225.381 ePair:0 eHDiff:0 eLCR: 855.908 eFAR: 4915.51
+
+----------------------------------
+Experiment 5
+ CPU time 225610 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 11.9732
+    --dFront2 = 45.646
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 115.474
+    --dSide2 = 38.5184
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.46152
+    --dFront2 = 12.283
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 151.134
+    --dSide2 = 45.7988
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 38.5816
+    --dFront2 = 41.1811
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 112.755
+    --dSide2 = 11.9141
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.20926
+    --dFront2 = 140.878
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 15.2159
+    --dSide2 = 35.2131
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.42268
+    --dFront2 = 80.6153
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 90.1481
+    --dSide2 = 48.5133
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.2565
+    --dFront2 = 131.332
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 23.7048
+    --dSide2 = 8.57176
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.2579
+    --dFront2 = 103.488
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 62.6659
+    --dSide2 = 28.14
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 40.6965
+    --dFront2 = 77.3143
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 85.647
+    --dSide2 = 9.53978
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.4677
+    --dFront2 = 8.22504
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 153.364
+    --dSide2 = 9.63058
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.154513
+ruleFAR: far<=4
+  --FAR = 0.927077
+
+ ------Energies-----
+eTotal:5566.91 eBorder:0 ePair:0 eHDiff:0 eLCR: 845.487 eFAR: 4721.43
+
+----------------------------------
+Experiment 6
+ CPU time 223930 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.95446
+    --dFront2 = 157.509
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.23448
+    --dSide2 = 14.7203
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 9.08351
+    --dFront2 = 126.024
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 34.0164
+    --dSide2 = 35.1931
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 9.25874
+    --dFront2 = 79.86
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 82.2476
+    --dSide2 = 48.5706
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.836
+    --dFront2 = 84.0406
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 71.9166
+    --dSide2 = 15.4569
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.3584
+    --dFront2 = 118.627
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 35.6541
+    --dSide2 = 10.4468
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 35.3077
+    --dFront2 = 34.3354
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 113.625
+    --dSide2 = 15.1884
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 9.45783
+    --dFront2 = 32.3838
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 119.847
+    --dSide2 = 41.0399
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 18.0098
+    --dFront2 = 6.71934
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 156.368
+    --dSide2 = 17.3367
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  --violation: dPair=14.3401
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.166971
+ruleFAR: far<=4
+  --FAR = 1.00183
+
+ ------Energies-----
+eTotal:5623.66 eBorder:0 ePair:296.118 eHDiff:0 eLCR: 833.029 eFAR: 4494.52
+
+----------------------------------
+Experiment 7
+ CPU time 223500 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 30.3521
+    --dFront2 = 67.0988
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 92.8198
+    --dSide2 = 20.1103
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 42.8547
+    --dFront2 = 17.14
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 126.476
+    --dSide2 = 7.65152
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.86696
+    --dFront2 = 5.24169
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 162.885
+    --dSide2 = 42.8779
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.35237
+    --dFront2 = 99.1311
+  eFront = 99.9235
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 64.0235
+    --dSide2 = 16.4602
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.99209
+    --dFront2 = 67.7135
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 102.129
+    --dSide2 = 45.1885
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 16.2414
+    --dFront2 = 32.0912
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 126.981
+    --dSide2 = 34.2698
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 12.1645
+    --dFront2 = 156.92
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.07419
+    --dSide2 = 11.0064
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.57288
+    --dFront2 = 130.57
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 36.3081
+    --dSide2 = 22.9507
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.170091
+ruleFAR: far<=4
+  --FAR = 1.02054
+
+ ------Energies-----
+eTotal:5368.41 eBorder:99.9235 ePair:0 eHDiff:0 eLCR: 829.909 eFAR: 4438.58
+
+----------------------------------
+Experiment 8
+ CPU time 223570 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.08574
+    --dFront2 = 99.8763
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 53.609
+    --dSide2 = 41.1593
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 42.8156
+    --dFront2 = 22.6535
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 131.385
+    --dSide2 = 7.70308
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.14064
+    --dFront2 = 143.575
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 20.346
+    --dSide2 = 38.8241
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.92157
+    --dFront2 = 71.0296
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 99.0597
+    --dSide2 = 46.0923
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 12.9834
+    --dFront2 = 66.9289
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 85.7025
+    --dSide2 = 18.1939
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 36.2064
+    --dFront2 = 103.882
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 59.5121
+    --dSide2 = 10.6394
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 31.5062
+    --dFront2 = 139.34
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 24.9348
+    --dSide2 = 8.9411
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.19277
+    --dFront2 = 33.3219
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 135.281
+    --dSide2 = 42.4882
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.83079
+    --dFront2 = 7.9204
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 158.832
+    --dSide2 = 35.675
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.140585
+ruleFAR: far<=4
+  --FAR = 0.84351
+
+ ------Energies-----
+eTotal:5841.13 eBorder:0 ePair:0 eHDiff:0 eLCR: 859.415 eFAR: 4981.72
+
+----------------------------------
+Experiment 9
+ CPU time 224130 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 9.1338
+    --dFront2 = 63.3057
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 105.729
+    --dSide2 = 41.5696
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.99589
+    --dFront2 = 10.7362
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 138.376
+    --dSide2 = 41.5311
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.38581
+    --dFront2 = 60.3108
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 95.7711
+    --dSide2 = 16.1842
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.42407
+    --dFront2 = 157.967
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.99298
+    --dSide2 = 20.8052
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.31525
+    --dFront2 = 119.478
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 49.0914
+    --dSide2 = 34.7156
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 38.8577
+    --dFront2 = 115.015
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 48.2522
+    --dSide2 = 7.52803
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 35.3253
+    --dFront2 = 6.03067
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 142.647
+    --dSide2 = 15.1238
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 13.1186
+    --dFront2 = 88.9199
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 76.8096
+    --dSide2 = 45.6424
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.139628
+ruleFAR: far<=4
+  --FAR = 0.837766
+
+ ------Energies-----
+eTotal:5860.23 eBorder:0 ePair:0 eHDiff:0 eLCR: 860.372 eFAR: 4999.86
+
+----------------------------------
+Experiment 10
+ CPU time 223410 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 29.918
+    --dFront2 = 135.066
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 9.58598
+    --dSide2 = 11.0044
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.85065
+    --dFront2 = 150.975
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 9.53049
+    --dSide2 = 35.2887
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 33.8143
+    --dFront2 = 75.8003
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 88.3814
+    --dSide2 = 15.843
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 12.3133
+    --dFront2 = 102.425
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 61.6544
+    --dSide2 = 18.0258
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.34566
+    --dFront2 = 77.4011
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 83.8031
+    --dSide2 = 53.9644
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 22.897
+    --dFront2 = 48.5476
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 114.377
+    --dSide2 = 12.3549
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.91866
+    --dFront2 = 5.95746
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 152.761
+    --dSide2 = 45.5551
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 35.2887
+    --dFront2 = 9.51151
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 148.058
+    --dSide2 = 15.1829
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.162768
+ruleFAR: far<=4
+  --FAR = 0.976606
+
+ ------Energies-----
+eTotal:5407.69 eBorder:0 ePair:0 eHDiff:0 eLCR: 837.232 eFAR: 4570.46
+
+----------------------------------
+Experiment 11
+ CPU time 223530 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.7472
+    --dFront2 = 146.527
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 20.4934
+    --dSide2 = 22.4604
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 18.4525
+    --dFront2 = 112.953
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 53.4205
+    --dSide2 = 23.8848
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 33.5466
+    --dFront2 = 47.1503
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 116.359
+    --dSide2 = 15.4095
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 29.821
+    --dFront2 = 13.9443
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 143.167
+    --dSide2 = 20.7126
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.20517
+    --dFront2 = 46.339
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 117.907
+    --dSide2 = 42.2891
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.38466
+    --dFront2 = 4.61014
+  eFront = 78.0745
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 149.08
+    --dSide2 = 48.0748
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.0295
+    --dFront2 = 91.6835
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 72.0424
+    --dSide2 = 53.5069
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 21.4797
+    --dFront2 = 76.5388
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 71.39
+    --dSide2 = 9.21465
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.14852
+ruleFAR: far<=4
+  --FAR = 0.891117
+
+ ------Energies-----
+eTotal:5762.13 eBorder:78.0745 ePair:0 eHDiff:0 eLCR: 851.48 eFAR: 4832.58
+
+----------------------------------
+Experiment 12
+ CPU time 223050 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.44351
+    --dFront2 = 142.852
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 13.0912
+    --dSide2 = 34.7025
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 14.8616
+    --dFront2 = 5.25659
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 158.489
+    --dSide2 = 20.8023
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 32.8343
+    --dFront2 = 135.068
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 26.7449
+    --dSide2 = 10.5438
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.3917
+    --dFront2 = 104.046
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 59.2747
+    --dSide2 = 10.0925
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 29.4425
+    --dFront2 = 51.1599
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 91.2263
+    --dSide2 = 21.017
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.46256
+    --dFront2 = 81.6412
+  eFront = 25.3441
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 80.6222
+    --dSide2 = 46.0849
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.55274
+    --dFront2 = 43.7045
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 112.829
+    --dSide2 = 46.932
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.11985
+    --dFront2 = 117.463
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 52.3024
+    --dSide2 = 40.2967
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.152195
+ruleFAR: far<=4
+  --FAR = 0.913168
+
+ ------Energies-----
+eTotal:5637.41 eBorder:25.3441 ePair:0 eHDiff:0 eLCR: 847.805 eFAR: 4764.27
+
+----------------------------------
+Experiment 13
+ CPU time 223220 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 20.1822
+    --dFront2 = 109.698
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 50.7189
+    --dSide2 = 27.7792
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.4212
+    --dFront2 = 78.1959
+  eFront = 53.3457
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 83.5252
+    --dSide2 = 55.4827
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 40.603
+    --dFront2 = 82.0971
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 80.5573
+    --dSide2 = 9.52306
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.65793
+    --dFront2 = 155.342
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 11.1431
+    --dSide2 = 18.6333
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.54364
+    --dFront2 = 36.9703
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 118.071
+    --dSide2 = 46.9494
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 31.517
+    --dFront2 = 49.8519
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 109.098
+    --dSide2 = 18.9657
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 20.591
+    --dFront2 = 4.57764
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 159.486
+    --dSide2 = 22.4771
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.123726
+ruleFAR: far<=4
+  --FAR = 0.742358
+
+ ------Energies-----
+eTotal:6235.73 eBorder:53.3457 ePair:0 eHDiff:0 eLCR: 876.274 eFAR: 5306.11
+
+----------------------------------
+Experiment 14
+ CPU time 222850 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 19.1448
+    --dFront2 = 157.439
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.82177
+    --dSide2 = 17.2331
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.33162
+    --dFront2 = 112.518
+  eFront = 113.954
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 43.8108
+    --dSide2 = 43.7657
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.43725
+    --dFront2 = 65.5386
+  eFront = 42.4784
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 88.3689
+    --dSide2 = 55.416
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 30.354
+    --dFront2 = 101.59
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 54.819
+    --dSide2 = 18.6253
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.17204
+    --dFront2 = 48.7857
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 93.0701
+    --dSide2 = 19.4458
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 42.1381
+    --dFront2 = 6.2903
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 140.764
+    --dSide2 = 8.30912
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.67821
+    --dFront2 = 7.0913
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 160.412
+    --dSide2 = 39.5417
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.69986
+    --dFront2 = 33.3802
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 135.497
+    --dSide2 = 43.8681
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.155847
+ruleFAR: far<=4
+  --FAR = 0.935083
+
+ ------Energies-----
+eTotal:5697.44 eBorder:156.432 ePair:0 eHDiff:0 eLCR: 844.153 eFAR: 4696.86
+
+----------------------------------
+Experiment 15
+ CPU time 223400 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.39538
+    --dFront2 = 5.34511
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 161.515
+    --dSide2 = 36.4868
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 13.4034
+    --dFront2 = 36.8068
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 118.041
+    --dSide2 = 37.0927
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.93736
+    --dFront2 = 146.102
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 21.9921
+    --dSide2 = 27.8679
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.721
+    --dFront2 = 87.4884
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 76.5581
+    --dSide2 = 46.7359
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 40.1186
+    --dFront2 = 6.91011
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 137.819
+    --dSide2 = 10.0022
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 17.4655
+    --dFront2 = 112.987
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 53.7082
+    --dSide2 = 25.4384
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.6289
+    --dFront2 = 70.6527
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 84.0929
+    --dSide2 = 14.8959
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.125322
+ruleFAR: far<=4
+  --FAR = 0.751932
+
+ ------Energies-----
+eTotal:6149.65 eBorder:0 ePair:0 eHDiff:0 eLCR: 874.678 eFAR: 5274.97
+
+----------------------------------
+Experiment 16
+ CPU time 223210 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 41.4043
+    --dFront2 = 50.5884
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 106.077
+    --dSide2 = 9.07608
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 18.1318
+    --dFront2 = 151.446
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 14.7399
+    --dSide2 = 17.62
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 23.4559
+    --dFront2 = 119.098
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 44.0341
+    --dSide2 = 8.26569
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.11201
+    --dFront2 = 97.8083
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 67.8247
+    --dSide2 = 43.7994
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 9.6239
+    --dFront2 = 63.7434
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 104.233
+    --dSide2 = 36.193
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 30.0341
+    --dFront2 = 87.4226
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 74.1826
+    --dSide2 = 15.2171
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.5905
+    --dFront2 = 23.8791
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 137.77
+    --dSide2 = 8.3954
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.87533
+    --dFront2 = 2.90651
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 165.202
+    --dSide2 = 43.0293
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.6769
+    --dFront2 = 38.6937
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 129.015
+    --dSide2 = 37.4346
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.129753
+ruleFAR: far<=4
+  --FAR = 0.77852
+
+ ------Energies-----
+eTotal:6059.21 eBorder:0 ePair:0 eHDiff:0 eLCR: 870.247 eFAR: 5188.97
+
+----------------------------------
+Experiment 17
+ CPU time 223840 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 42.9838
+    --dFront2 = 2.41538
+  eFront = 57.2862
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 138.838
+    --dSide2 = 7.45487
+  eSide = 30.5505
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.7036
+    --dFront2 = 103.141
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 55.9718
+    --dSide2 = 38.1862
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 39.0529
+    --dFront2 = 81.9183
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 56.8396
+    --dSide2 = 10.5922
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.91513
+    --dFront2 = 65.0076
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 104.74
+    --dSide2 = 44.9876
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.06645
+    --dFront2 = 161.061
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.74628
+    --dSide2 = 34.8426
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 31.7552
+    --dFront2 = 139.377
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 19.2533
+    --dSide2 = 10.5902
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 11.3664
+    --dFront2 = 3.41585
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 163.47
+    --dSide2 = 36.8165
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.1116
+    --dFront2 = 55.6965
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 106.416
+    --dSide2 = 7.50306
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 0.255756
+    --dFront2 = 30.2297
+  eFront = 173.003
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 137.265
+    --dSide2 = 37.2414
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.165994
+ruleFAR: far<=4
+  --FAR = 0.995964
+
+ ------Energies-----
+eTotal:5606.96 eBorder:260.84 ePair:0 eHDiff:0 eLCR: 834.006 eFAR: 4512.12
+
+----------------------------------
+Experiment 18
+ CPU time 223780 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.60262
+    --dFront2 = 4.20968
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 157.441
+    --dSide2 = 46.8862
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.3096
+    --dFront2 = 8.76582
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 152.783
+    --dSide2 = 9.3707
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 38.3956
+    --dFront2 = 40.3246
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 121.812
+    --dSide2 = 9.19891
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.0961
+    --dFront2 = 126.342
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 37.3639
+    --dSide2 = 37.7805
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.75599
+    --dFront2 = 88.2997
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 71.1805
+    --dSide2 = 43.0469
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 40.6077
+    --dFront2 = 80.3988
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 82.7838
+    --dSide2 = 10.345
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.00776
+    --dFront2 = 41.2789
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 118.518
+    --dSide2 = 46.4862
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 32.156
+    --dFront2 = 107.722
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 51.6077
+    --dSide2 = 16.2421
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.60083
+    --dFront2 = 159.002
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.13611
+    --dSide2 = 21.5979
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  --violation: dPair=14.8286
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.145509
+ruleFAR: far<=4
+  --FAR = 0.873057
+
+ ------Energies-----
+eTotal:5820.71 eBorder:0 ePair:77.3321 eHDiff:0 eLCR: 854.491 eFAR: 4888.89
+
+----------------------------------
+Experiment 19
+ CPU time 224650 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.32155
+    --dFront2 = 149.242
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 9.34206
+    --dSide2 = 31.8691
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.43507
+    --dFront2 = 106.393
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 52.5528
+    --dSide2 = 44.5344
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 36.1814
+    --dFront2 = 75.2859
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 76.1495
+    --dSide2 = 21.6436
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 33.1363
+    --dFront2 = 141.037
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 13.794
+    --dSide2 = 8.45092
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 41.9361
+    --dFront2 = 28.1003
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 131.104
+    --dSide2 = 8.58406
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 30.2054
+    --dFront2 = 115.033
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 49.2931
+    --dSide2 = 13.2714
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.52698
+    --dFront2 = 68.799
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 95.1788
+    --dSide2 = 55.3763
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.7057
+    --dFront2 = 2.62823
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 158.579
+    --dSide2 = 8.28786
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.08165
+    --dFront2 = 36.1386
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 131.142
+    --dSide2 = 35.5522
+  eSide = 0
+
+bldg 9
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 12.2102
+    --dFront2 = 10.6214
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 156.543
+    --dSide2 = 38.2769
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  --violation: dPair=14.8148
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.158841
+ruleFAR: far<=4
+  --FAR = 0.953049
+
+ ------Energies-----
+eTotal:5566.68 eBorder:0 ePair:83.5648 eHDiff:0 eLCR: 841.159 eFAR: 4641.96
+
+----------------------------------
+Experiment 20
+ CPU time 223620 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.0256
+    --dFront2 = 30.6637
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 131.108
+    --dSide2 = 8.31628
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.24739
+    --dFront2 = 153.262
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 12.1756
+    --dSide2 = 13.6194
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 15.8002
+    --dFront2 = 125.127
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 42.1445
+    --dSide2 = 26.9007
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 30.7657
+    --dFront2 = 59.3822
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 103.835
+    --dSide2 = 12.7026
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.1442
+    --dFront2 = 91.5254
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 69.9175
+    --dSide2 = 15.6487
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.43977
+    --dFront2 = 7.57363
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 157.349
+    --dSide2 = 45.05
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.0472
+    --dFront2 = 3.5848
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 157.735
+    --dSide2 = 8.75983
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.44539
+    --dFront2 = 80.6025
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 83.3465
+    --dSide2 = 49.8891
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.8438
+    --dFront2 = 37.3917
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 115.683
+    --dSide2 = 45.6459
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.147487
+ruleFAR: far<=4
+  --FAR = 0.884925
+
+ ------Energies-----
+eTotal:5704.36 eBorder:0 ePair:0 eHDiff:0 eLCR: 852.513 eFAR: 4851.85
+
+----------------------------------
+Experiment 21
+ CPU time 224180 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.0695
+    --dFront2 = 145.472
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 11.318
+    --dSide2 = 34.4064
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.48151
+    --dFront2 = 86.0322
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 74.2258
+    --dSide2 = 57.2501
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 13.8803
+    --dFront2 = 90.03
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 69.4795
+    --dSide2 = 30.7839
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 31.08
+    --dFront2 = 125.624
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 18.0133
+    --dSide2 = 10.5997
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 38.6609
+    --dFront2 = 46.0599
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 105.165
+    --dSide2 = 11.8228
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 39.37
+    --dFront2 = 9.4708
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 146.432
+    --dSide2 = 11.0984
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.56728
+    --dFront2 = 51.5698
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 116.534
+    --dSide2 = 38.0796
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.81981
+    --dFront2 = 2.49487
+  eFront = 3.47285
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 159.185
+    --dSide2 = 43.6697
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.145192
+ruleFAR: far<=4
+  --FAR = 0.871155
+
+ ------Energies-----
+eTotal:5753.12 eBorder:3.47285 ePair:0 eHDiff:0 eLCR: 854.808 eFAR: 4894.84
+
+----------------------------------
+Experiment 22
+ CPU time 223060 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 21.4561
+    --dFront2 = 96.6007
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 65.4199
+    --dSide2 = 8.57162
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.93493
+    --dFront2 = 127.25
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 37.547
+    --dSide2 = 12.8075
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.09679
+    --dFront2 = 35.6511
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 120.149
+    --dSide2 = 42.401
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.26378
+    --dFront2 = 155.304
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 9.32554
+    --dSide2 = 9.29097
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.36886
+    --dFront2 = 73.97
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 84.4586
+    --dSide2 = 49.8399
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 15.9638
+    --dFront2 = 8.77583
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 156.406
+    --dSide2 = 27.6733
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 39.661
+    --dFront2 = 40.2916
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 94.5667
+    --dSide2 = 10.7931
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.187434
+ruleFAR: far<=4
+  --FAR = 1.1246
+
+ ------Energies-----
+eTotal:4946.52 eBorder:0 ePair:0 eHDiff:0 eLCR: 812.566 eFAR: 4133.95
+
+----------------------------------
+Experiment 23
+ CPU time 224010 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 41.7914
+    --dFront2 = 7.15204
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 143.443
+    --dSide2 = 8.66631
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.21261
+    --dFront2 = 2.41149
+  eFront = 59.917
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 151.084
+    --dSide2 = 42.2577
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 13.8258
+    --dFront2 = 129.594
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 35.2419
+    --dSide2 = 12.7608
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.91123
+    --dFront2 = 157.175
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 9.07059
+    --dSide2 = 17.2845
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.55616
+    --dFront2 = 58.4254
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 104.357
+    --dSide2 = 10.5756
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 0.3325
+    --dFront2 = 56.3072
+  eFront = 224.78
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 98.5082
+    --dSide2 = 57.5929
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.5455
+    --dFront2 = 97.2571
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 60.7688
+    --dSide2 = 13.0274
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 11.3303
+    --dFront2 = 101.457
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 62.0354
+    --dSide2 = 39.0481
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.171538
+ruleFAR: far<=4
+  --FAR = 1.02923
+
+ ------Energies-----
+eTotal:5525.9 eBorder:284.697 ePair:0 eHDiff:0 eLCR: 828.462 eFAR: 4412.74
+
+----------------------------------
+Experiment 24
+ CPU time 224450 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 9.17348
+    --dFront2 = 140.306
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 26.8658
+    --dSide2 = 33.7443
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 43.34
+    --dFront2 = 86.81
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 73.1489
+    --dSide2 = 10.3586
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 12.9315
+    --dFront2 = 73.8889
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 95.5592
+    --dSide2 = 42.5697
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 41.6966
+    --dFront2 = 48.2763
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 108.936
+    --dSide2 = 8.79407
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 35.18
+    --dFront2 = 133.806
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 28.5644
+    --dSide2 = 8.5924
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.17761
+    --dFront2 = 41.7348
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 124.812
+    --dSide2 = 43.3273
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 16.8712
+    --dFront2 = 107.308
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 54.4948
+    --dSide2 = 31.7707
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.1781
+    --dFront2 = 6.22743
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 157.799
+    --dSide2 = 42.3151
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.22322
+    --dFront2 = 92.1784
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 74.2184
+    --dSide2 = 58.2149
+  eSide = 0
+
+bldg 9
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 35.694
+    --dFront2 = 12.6466
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 142.531
+    --dSide2 = 14.5889
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.130083
+ruleFAR: far<=4
+  --FAR = 0.780498
+
+ ------Energies-----
+eTotal:6052.51 eBorder:0 ePair:0 eHDiff:0 eLCR: 869.917 eFAR: 5182.6
+
+----------------------------------
+Experiment 25
+ CPU time 223200 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 5.44807
+    --dFront2 = 43.2163
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 121.634
+    --dSide2 = 45.0512
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 6.17272
+    --dFront2 = 3.18635
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 157.599
+    --dSide2 = 44.3184
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 32.5542
+    --dFront2 = 44.5302
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 110.639
+    --dSide2 = 17.9363
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.45993
+    --dFront2 = 80.7402
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 80.7563
+    --dSide2 = 43.9199
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 39.008
+    --dFront2 = 89.806
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 66.6272
+    --dSide2 = 13.0195
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 20.5531
+    --dFront2 = 128.934
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 35.8963
+    --dSide2 = 12.8013
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 7.46889
+    --dFront2 = 155.886
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 8.76927
+    --dSide2 = 9.34647
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 38.9637
+    --dFront2 = 2.58581
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 156.25
+    --dSide2 = 11.5394
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.145977
+ruleFAR: far<=4
+  --FAR = 0.875863
+
+ ------Energies-----
+eTotal:5734.14 eBorder:0 ePair:0 eHDiff:0 eLCR: 854.023 eFAR: 4880.12
+
+----------------------------------
+Experiment 26
+ CPU time 224620 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.0975
+    --dFront2 = 91.2838
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 73.8885
+    --dSide2 = 46.0197
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 22.7411
+    --dFront2 = 92.9742
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 63.9567
+    --dSide2 = 9.78424
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 12.5253
+    --dFront2 = 127.471
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 37.7548
+    --dSide2 = 14.9438
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 9.36246
+    --dFront2 = 156.504
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 11.429
+    --dSide2 = 25.7748
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 37.0922
+    --dFront2 = 15.0982
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 147.06
+    --dSide2 = 11.6655
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 11.9772
+    --dFront2 = 9.31244
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 155.661
+    --dSide2 = 38.5057
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 24.1125
+    --dFront2 = 64.7381
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 100.48
+    --dSide2 = 22.227
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.1847
+    --dFront2 = 39.5046
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 126.605
+    --dSide2 = 29.3142
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.76739
+    --dFront2 = 65.2655
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 105.867
+    --dSide2 = 51.9394
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.133046
+ruleFAR: far<=4
+  --FAR = 0.798279
+
+ ------Energies-----
+eTotal:5992.46 eBorder:0 ePair:0 eHDiff:0 eLCR: 866.954 eFAR: 5125.51
+
+----------------------------------
+Experiment 27
+ CPU time 224270 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.56108
+    --dFront2 = 7.77225
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 159.185
+    --dSide2 = 36.7244
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 43.147
+    --dFront2 = 0.0597054
+  eFront = 40.4203
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 146.726
+    --dSide2 = 7.32131
+  eSide = 120.923
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 14.0162
+    --dFront2 = 59.7127
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 108.089
+    --dSide2 = 35.7508
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 10.5339
+    --dFront2 = 34.1285
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 132.796
+    --dSide2 = 33.9587
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 41.917
+    --dFront2 = 48.1966
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 105.085
+    --dSide2 = 8.56139
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 27.1095
+    --dFront2 = 90.9912
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 67.2137
+    --dSide2 = 8.47978
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 28.5746
+    --dFront2 = 148.436
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 16.0539
+    --dSide2 = 9.53522
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.871
+    --dFront2 = 85.7613
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 68.9944
+    --dSide2 = 40.476
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.22879
+    --dFront2 = 149.426
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 12.9986
+    --dSide2 = 37.4592
+  eSide = 0
+
+bldg 9
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 17.9291
+    --dFront2 = 121.183
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 45.4168
+    --dSide2 = 24.1224
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.160067
+ruleFAR: far<=4
+  --FAR = 0.9604
+
+ ------Energies-----
+eTotal:5620.86 eBorder:161.344 ePair:0 eHDiff:0 eLCR: 839.933 eFAR: 4619.58
+
+----------------------------------
+Experiment 28
+ CPU time 223090 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 34.0927
+    --dFront2 = 43.6787
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 112.343
+    --dSide2 = 16.4009
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 4.43065
+    --dFront2 = 28.2211
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 122.944
+    --dSide2 = 46.0704
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 23.2407
+    --dFront2 = 4.31194
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 157.646
+    --dSide2 = 11.8961
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 31.7827
+    --dFront2 = 144.074
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 9.79075
+    --dSide2 = 9.34533
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 39.386
+    --dFront2 = 106.83
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 56.2504
+    --dSide2 = 7.63428
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 33.4023
+    --dFront2 = 78.24
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 86.8439
+    --dSide2 = 20.1422
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 12.7662
+    --dFront2 = 122.649
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 44.4025
+    --dSide2 = 33.5943
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.98343
+    --dFront2 = 150.982
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 11.9552
+    --dSide2 = 37.4778
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 8.29979
+    --dFront2 = 85.0382
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 82.2092
+    --dSide2 = 49.7699
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  no Violation
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.146704
+ruleFAR: far<=4
+  --FAR = 0.880225
+
+ ------Energies-----
+eTotal:5719.79 eBorder:0 ePair:0 eHDiff:0 eLCR: 853.296 eFAR: 4866.5
+
+----------------------------------
+Experiment 29
+ CPU time 224350 ms
+ iteration 1499999 
+
+bldg 0
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 31.1215
+    --dFront2 = 39.0065
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 124.159
+    --dSide2 = 14.5173
+  eSide = 0
+
+bldg 1
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.77918
+    --dFront2 = 154.843
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 9.47133
+    --dSide2 = 37.4746
+  eSide = 0
+
+bldg 2
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 19.8411
+    --dFront2 = 73.7145
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 89.4427
+    --dSide2 = 10.8934
+  eSide = 0
+
+bldg 3
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 36.3368
+    --dFront2 = 101.993
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 47.495
+    --dSide2 = 11.2246
+  eSide = 0
+
+bldg 4
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 12.1516
+    --dFront2 = 65.1545
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 98.5191
+    --dSide2 = 45.7911
+  eSide = 0
+
+bldg 5
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 27.8598
+    --dFront2 = 144.202
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 20.9205
+    --dSide2 = 13.0945
+  eSide = 0
+
+bldg 6
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 2.77772
+    --dFront2 = 14.592
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 130.843
+    --dSide2 = 47.7353
+  eSide = 0
+
+bldg 7
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 27.6452
+    --dFront2 = 13.7123
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 147.658
+    --dSide2 = 7.95615
+  eSide = 0
+
+bldg 8
+  ruleHeight: [3.2,24]
+    --h = 18
+  ruleFront: dFront1=0 || dFront1>2.5 && dFront2=0 || dFront2>2.5
+    --dFront1 = 3.37928
+    --dFront2 = 110.325
+  eFront = 0
+  ruleSide: dSide1>=max((h-3)/2,3) && dSide2>=max((h-3)/2,3)
+    --dSide1 = 52.9123
+    --dSide2 = 44.678
+  eSide = 0
+
+ ruleDPair: dPair> hMax/2 && dPair>max(hMax-3,8.0)
+  --violation: dPair=14.8719
+
+ ruleHDiff: hDiff<=6
+  no Violation
+
+ ------Global rules-----
+ruleLCR: lcr<=1
+  --LCR = 0.162535
+ruleFAR: far<=4
+  --FAR = 0.97521
+
+ ------Energies-----
+eTotal:5469.93 eBorder:0 ePair:57.7888 eHDiff:0 eLCR: 837.465 eFAR: 4574.68
+
+min LCR 0.123726
+max LCR 0.187434
+average LCR 0.151231
+
+min FAR 0.742358
+max FAR 1.1246
+average FAR 0.907384
+
+min energy 4946.52
+max energy 6235.73
+average energy 5706.58
+
+min time 222850
+max time 229950
+average times 224187
