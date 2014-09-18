@@ -2,6 +2,7 @@
 #define OSG_HPP
 
 #include <map>
+#include <vector>
 #include "Lot.hpp"
 #include "Building.hpp"
 
